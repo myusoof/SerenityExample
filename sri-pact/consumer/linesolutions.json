@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://localhost:4545/line_solutions/8f91d724-2002-46ec-9014-1c9b10f1038a/lines?page=1&size=10000"
+        },
+        "parent": {
+            "href": "http://localhost:4545/line_solutions/8f91d724-2002-46ec-9014-1c9b10f1038a"
+        }
+    },
+    "_embedded": {
+        "lines": [
+            {
+                "type": "HARD",
+                "category": "PRIMARY",
+                "_links": {
+                    "self": {
+                        "href": "http://localhost:4545/line_solutions/8f91d724-2002-46ec-9014-1c9b10f1038a/lines/8ada00c4-b127-4151-8499-0edc2b9a62ba"
+                    },
+                    "parent": {
+                        "href": "http://localhost:4545/line_solutions/8f91d724-2002-46ec-9014-1c9b10f1038a/lines{?page,size}",
+                        "templated": true
+                    }
+                },
+                "_embedded": {
+                    "pairing_instances": [
+                        {
+                            "name": "DABH",
+                            "length": 3,    
+                            "date": "2018-07-07",
+                            "_links": {
+                                "self": {
+                                    "href": "http://www.test.com"
+                                }
+                            }
+                        },
+                        {
+                            "name": "DAXO",
+                            "length": 3,
+                            "date": "2018-07-26",
+                            "_links": {
+                                "self": {
+                                    "href": "http://www.test.com"
+                                }
+                            }
+                        },
+                        {
+                            "name": "DA1Z",
+                            "length": 3,
+                            "date": "2018-07-01",
+                            "_links": {
+                                "self": {
+                                    "href": "http://www.test.com"
+                                }
+                            }
+                        },
+                        {
+                            "name": "DAN6",
+                            "length": 4,
+                            "date": "2018-07-15",
+                            "_links": {
+                                "self": {
+                                    "href": "http://www.test.com"
+                                }
+                            }
+                        },
+                        {
+                            "name": "DY18",
+                            "length": 2,
+                            "date": "2018-07-12",
+                            "_links": {
+                                "self": {
+                                    "href": "http://www.test.com"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "line_number": 1,
+                "am_pm": "AM",
+                "block_time": 4775,
+                "trip_for_pay": 92.8,
+                "seat_position": "NONE"
+            }
+        ]
+		}
+	}
+    
