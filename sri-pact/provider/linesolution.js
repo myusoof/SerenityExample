@@ -14,7 +14,6 @@ server.use((_, res, next) => {
 })
 
 server.get('/line_solutions/:lineguid/lines', (req, res) => {
-  console.log(fs.readFileSync('./linesolutions.json').toString())
   res.json(JSON.parse(fs.readFileSync('./linesolutions.json').toString()))
       // res.json({
       //   test: 'NO',

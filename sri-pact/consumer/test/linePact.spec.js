@@ -48,7 +48,7 @@ describe('Pact with Our Provider', () => {
               headers: {
                 'Content-Type': 'application/json; charset=utf-8',
               },
-              body: (fs.readFileSync(path.resolve(__dirname, '../linesolutions.json')).toString()),
+              body: JSON.parse((fs.readFileSync(path.resolve(__dirname, '../linesolutions.json')).toString())),
             },
           })
         })

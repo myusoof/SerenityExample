@@ -2,9 +2,9 @@ const pact = require('@pact-foundation/pact-node')
 const path = require('path')
 const opts = {
   pactFilesOrDirs: [path.resolve(__dirname, '../../pacts/')],
-  pactBroker: 'https://test.pact.dius.com.au',
-  pactBrokerUsername: 'dXfltyFMgNOFZAxr8io9wJ37iUpY42M',
-  pactBrokerPassword: 'O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1',
+  pactBroker: 'http://localhost',
+  pactBrokerUsername: 'postgres',
+  pactBrokerPassword: 'password',
   tags: ['prod', 'test'],
   consumerVersion:
     '1.0.' +
@@ -16,9 +16,9 @@ pact
   .then(() => {
     console.log('Pact contract publishing complete!')
     console.log('')
-    console.log('Head over to https://test.pact.dius.com.au/ and login with')
-    console.log('=> Username: dXfltyFMgNOFZAxr8io9wJ37iUpY42M')
-    console.log('=> Password: O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1')
+    console.log('Head over to http://localhost/ and login with')
+    console.log('=> Username: postgres')
+    console.log('=> Password: password')
     console.log('to see your published contracts.')
   })
   .catch(e => {
